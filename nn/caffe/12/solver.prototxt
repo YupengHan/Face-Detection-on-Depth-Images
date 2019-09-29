@@ -1,0 +1,16 @@
+net: "test_train_val.prototxt"
+test_initialization: false
+test_iter: 100
+test_interval: 100
+momentum: 0.3
+weight_decay: 1
+lr_policy: "step"
+stepsize: 1000
+base_lr: 0.1
+gamma: 0.5
+max_iter: 15000
+display: 20
+average_loss: 100
+snapshot: 5000
+snapshot_prefix: "./models/12Depth_2019_0701_1643"
+solver_mode: GPU
